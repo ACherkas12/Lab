@@ -5,7 +5,7 @@ int n, m, i, j, fl, sum, summ, mn=1e9, tmp;
 
 int main() {
 
-    scanf("%d%d", &n, &m);
+    scanf("%d%d", &n, &m);//
 
     for(i=1; i<=n; i++)
     {
