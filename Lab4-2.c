@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int n,i,j,fl;
+int n,i,j,fl;//
 
 int main() {
 
