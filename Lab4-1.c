@@ -4,7 +4,7 @@
      
     int main() {
      
-        scanf("%d", &n);
+        scanf("%d", &n);//
      
         int a[n+1];
 
