@@ -5,7 +5,7 @@ int main(void){
 
     system("chcp 1251");
     int i, index1, index2, n=10;
-    int sum, max, min;
+    int sum, max, min;//
     int mass[n];
     int *p=mass;
     int *q=mass+n-1;
