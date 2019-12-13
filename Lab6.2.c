@@ -8,7 +8,7 @@ int main(){
 	scanf("%d",&n);
 	printf("Stolbcy: ");
 	scanf("%d",&m);
-	int a[n+1][m+1];
+	int a[n+1][m+1];//
 	for(i=1;i<=n;i++)
 	{
 		for(j=1;j<=m;j++)
