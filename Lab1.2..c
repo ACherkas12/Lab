@@ -4,7 +4,7 @@
 
 int main()
 {
-float x, y, z, a, b, s;
+float x, y, z, a, b, s;//
 x=-15.246;
 y=4.642 * pow(10,-2);
 z=21;
