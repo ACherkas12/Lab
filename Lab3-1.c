@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double n, a, b, c;
+double n, a, b, c;//
 
 int main(int acgc, char const *argv[])
 {
