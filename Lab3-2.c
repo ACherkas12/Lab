@@ -3,7 +3,7 @@
 #include <math.h>
 
 double a, b;
-int i;
+int i;//
 
 int main(int acgc, char const *argv[])
 {
