@@ -12,10 +12,10 @@ void ShowMatrix(void){
         		printf("=%3.3f\n",matrix[i][3]);
 		}
 }
-		int main(){
-		
-  float tmp, xx[4];
-  short int i, j, k;
+int main(){
+system("chcp 1251>nul");
+	float tmp, xx[4];
+	short int i, j, k;
  
 ShowMatrix();
   for (i=0; i<3; i++)
@@ -36,11 +36,10 @@ ShowMatrix();
          xx[i] = matrix[i][3];
          for (j=i+1;j<3;j++) xx[i]-=matrix[i][j]*xx[j];
      }
-/*вывод решения*/
 printf("\nMetod Gaussa:\n");
   for (i=0; i<3; i++)
     printf("x%d=%3.3f\n", i+1, xx[i]);
- 
+ system("pause>nul");
  return 0;
 }
 
